@@ -15,7 +15,7 @@ Sigue estos sencillos pasos para dejar el proyecto funcionando en tu entorno loc
    * Crea una nueva carpeta llamada **`Solma`**.
 
 4. **Desplegar los archivos:**
-   * Copia los 4 archivos extraídos del ZIP y pégalos dentro de la carpeta que acabas de crear:
+   * Copia los 7 archivos extraídos del ZIP y pégalos dentro de la carpeta que acabas de crear:
      ```text
      C:\xampp\htdocs\Solma\
      ```
