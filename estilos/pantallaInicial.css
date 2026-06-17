@@ -1,0 +1,103 @@
+        body{
+            margin:0;
+            font-family: Arial;
+            background-color: #e6e6e6;
+        }
+
+        .cabecera {
+            position: relative;
+            padding: 10px;
+            background-color: #8cc63f;
+        }
+        
+        .cabecera h1{
+            text-align: center;
+            font-size: 38px;
+        }
+        .renault-group{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        .renault-group h2{
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .subtitulo{
+            text-align: center;
+            margin: 15px auto;
+        }
+
+        .subtitulo h2{
+            display:inline-block;
+            padding:10px 20px;
+            border:2px solid #2c8c3c;
+            border-radius:8px;
+            background:#cfe8b2;
+        }
+
+        .funciones{
+            display: grid;
+            grid-template-columns: repeat(2, 250px);
+            gap: 40px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .boton{
+            background: linear-gradient(to bottom, #ffd84d, #e6b800);
+            color: white;
+            border: 1px solid #c79a00;
+            border-radius: 6px;
+            padding: 15px;
+            
+            width: 250px;
+            white-space: normal; 
+            word-wrap: break-word;
+            text-align: center;
+
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            box-shadow: 0 3px 0 #a67c00, 0 5px 10px rgba(0,0,0,0.2);
+            transition: all 0.2s ease;
+
+        }
+
+        .boton:hover{
+            background: linear-gradient(to bottom, #ffe066, #cc9900);
+            transform: translateY(-2px);
+        }
+
+        .boton:active{
+            transform: translateY(2px);
+            box-shadow: 0 2px 0 #a67c00;
+        }
+        .boton-home {
+            position: absolute;
+            left: 25px;
+            top: 22px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            cursor: pointer;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .boton-home:hover {
+            background: rgba(255, 255, 255, 0.35);
+            transform: scale(1.08);
+        }
+
+        .boton-home i {
+            font-size: 28px;
+            color: white;
+        }

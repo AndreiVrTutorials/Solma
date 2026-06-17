@@ -1,0 +1,71 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #5cff45, #1e8f2b);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+        margin: 5px 0;
+    }
+
+    h2 {
+        margin: 0;
+        color: #555;
+    }
+
+    img {
+        margin: 10px 0 20px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+        text-align: left;
+    }
+
+    #boton-entrar, #boton-crear-cuenta {
+        width: 100%;
+        background-color: #3b6bb1;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 12px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+        margin-top: 5px;
+    }
+
+    #boton-entrar:hover, #boton-crear-cuenta:hover {
+        background-color: #2f5a96;
+    }
+
+    #boton-entrar, #boton-crear-cuenta:active {
+        transform: scale(0.96);
+    }
