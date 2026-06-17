@@ -27,5 +27,5 @@ Sigue estos sencillos pasos para dejar el proyecto funcionando en tu entorno loc
 
 6. **Verificar la conexión:**
    * Abre tu navegador web e ingresa a: `http://localhost/Solma/index.html`
-   * Asegúrate de que no haya errores de conexión y que el proyecto cargue correctamente. 🎉
+   * Asegúrate de que no haya errores de conexión y que el proyecto cargue correctamente.
 
