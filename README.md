@@ -1,6 +1,6 @@
 # Solma
 # Parte_Taller
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 Sigue estos sencillos pasos para dejar el proyecto funcionando en tu entorno local:
 
